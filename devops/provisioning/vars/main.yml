@@ -1,0 +1,6 @@
+---
+#PUT here your main variable
+timezone: Europe/Paris
+project_name: libreskills
+port: 80
+apt_install: []

@@ -1,0 +1,13 @@
+---
+
+- name: Provision libreskills
+  hosts: all
+  sudo: true
+  vars_files:
+    - vars/main.yml
+
+  roles:
+    - users
+    - apt
+    - { role: Stouts.nodejs, tags: nodejs }
+    - { role: Stouts.mongodb }
