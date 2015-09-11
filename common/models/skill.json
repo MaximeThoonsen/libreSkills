@@ -1,0 +1,31 @@
+{
+  "name": "skill",
+  "plural": "skills",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "description": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "index": true
+    },
+    "tags": {
+      "type": "tag"
+    },
+    "links": {
+      "type": [
+        "string"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

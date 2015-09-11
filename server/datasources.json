@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mymongodb": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "libreskill",
+    "password": "",
+    "name": "mymongodb",
+    "connector": "mongodb",
+    "user": ""
+  }
+}
