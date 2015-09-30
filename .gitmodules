@@ -1,0 +1,3 @@
+[submodule "client/build"]
+	path = client/build
+	url = git@github.com:MaximeThoonsen/webapp-gulp-builder.git

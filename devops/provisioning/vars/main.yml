@@ -1,0 +1,7 @@
+---
+#PUT here your main variable
+timezone: Europe/Paris
+project_name: libreSkills
+port: 80
+apt_install:
+  - git
